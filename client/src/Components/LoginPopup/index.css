@@ -1,0 +1,32 @@
+.popup-form-container{
+    width: 400px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid rgb(201, 193, 193);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-button{
+    text-align: end;
+}
+
+.signup-hint-msg{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.signup-span{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.error{
+    color: red;
+}
+
+@media screen and (max-width: 879px){
+    .popup-form-container{
+        width: 325px;
+    }
+}

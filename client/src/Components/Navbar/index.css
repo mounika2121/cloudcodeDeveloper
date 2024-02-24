@@ -1,0 +1,125 @@
+.nav-container{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 193, 193);
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: #1bbc9b;
+}
+.nav-li{
+    margin-left: 25px;
+}
+
+.nav-search-input{
+    height: 45px;
+    width: 300px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-search-container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(201, 193, 193);
+    border-radius: 10px;
+}
+
+.nav-search-button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 8px;
+}
+
+.nav-login-button{
+    height: 40px;
+    width: 150px;
+    background-color: #5755d9;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-for-samlldevices{
+    display: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-lg-login{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 879px){
+    .nav-container{
+        display: none;
+    }
+    .nav-for-samlldevices{
+        display: block;
+    }
+    .nav-sm-container{
+        background-color: white;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hamburger-button{
+        background-color: white;
+        outline: none;
+        cursor: pointer;
+        border: none;
+    }
+    .nav-sections-tab{
+        background-color: white;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(201, 193, 193);
+    }
+
+    .nav-search-container{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .nav-ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 0;
+        margin-left: 0;
+        margin-right: 18px;
+    }
+    .nav-li{
+        margin-bottom: 10px;
+    }
+    .nav-sm-login{
+        text-align: center;
+    }
+}

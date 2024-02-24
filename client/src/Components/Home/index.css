@@ -1,0 +1,228 @@
+.home-page-container{
+    background-image: url("https://res.cloudinary.com/djbs4yqbz/image/upload/v1708151756/banner3_huzimn.jpg");
+    height: 95vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.banner-first-line{
+    margin-left: 45px;
+    font-size: 60px;
+    width: 300px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
+}
+.banner-second-line{
+    margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
+}
+.banner-third-line{
+    margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
+}
+.banner-last-line{
+    margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
+}
+.banner-button{
+    background-color: #1bbc9b;
+    width: 280px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 23px;
+    margin-left: 45px;
+    border: 2px solid white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    color: white;
+}
+
+.home-training-img{
+    height: 200px;
+    border-radius: 8px;
+}
+.banner-btm-container{
+    background-color: #111625;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.names-container{
+    padding-top: 25px;
+    width: 280px;
+    text-align: center;
+}
+.achives-container{
+    padding-top: 25px;
+    width: 650px;
+    text-align: center;
+}
+.home-hr-line{
+    background-color: white;
+    height: 3px;
+    border: none;
+    color: white;
+}
+.home-heading{
+    color: white;
+    letter-spacing: 1px;
+}
+.home-list-of-trainings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.each-training-container{
+    margin-right: 25px;
+}
+.each-achive-container{
+    margin-right: 60px;
+    text-align: center;
+}
+.training-name{
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.achive-count{
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.enquire-btn{
+    background-color:  #1bbc9b;
+    height: 40px;
+    width: 180px;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.home-achives-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.achiver-names{
+    color: #1bbc9b;
+    font-size: 20px;
+}
+.faqs {
+    text-align: center;
+    padding: 45px 10px;
+    background-color: hsl(225, 37%, 11%);
+    color: white;
+  }
+  .faq-para{
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+  
+  .faq-item {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 15px;
+  }
+  
+  .faq-item h3 {
+    margin-top: 20px;
+  }
+  
+  .faq-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .faq-item ul li {
+    margin-bottom: 8px;
+  }
+  
+  .faq-headings{
+    font-size: 18px;
+  }
+@media screen and (max-width: 879px){
+    .banner-first-line{
+        width: 150px;
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .banner-second-line{
+        font-size: 20px;
+        margin-left: 15px;
+        width: 250px;
+    }
+    .banner-third-line{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .banner-last-line{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .banner-button{
+        margin-left: 15px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .home-page-container{
+        width: 100%;
+        height: 80vh;
+    }
+    .home-list-of-trainings{
+        flex-direction: column;
+    }
+    .names-container{
+        width: 180px;
+    }
+    .home-heading{
+        font-size: 18px;
+    }
+    .home-training-img{
+        width: 280px;
+    }
+    .each-training-container{
+        margin-bottom: 25px;
+    }
+    .achives-container{
+        width: 280px;
+    }
+    .achive-count{
+        font-size: 45px;
+    }
+    .faq-item {
+        max-width: 400px;
+      }
+    .faq-para{
+        font-size: 12px;
+    }
+    .faq-headings{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .home-training-img{
+        width: 250px;
+    }
+}

@@ -1,0 +1,71 @@
+.careers-top-page{
+    padding-top: 130px;
+    margin-bottom: 35px;
+}
+
+
+.internship-form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 12px solid rgb(61, 61, 144);
+}
+.input-feilds-container{
+    border: 1px solid #d5d1d1;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.careers-labels{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.required-star{
+    color: rgb(216, 45, 45);
+}
+.careers-input-fields{
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #d5d1d1;
+    background-color: #f9f9f9;
+    outline: none;
+}
+.careers-radio-button{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.careers-radio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.careers-radio-para{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 879px){
+    .internship-form-container{
+        max-width: 800px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .careers-top-page{
+        padding-top: 180px;
+    }
+    .careers-input-fields{
+        width: 100%;
+    }
+    .company-name{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
